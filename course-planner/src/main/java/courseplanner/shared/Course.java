@@ -13,7 +13,7 @@ public class Course {
 	private ArrayList<Course> prerequisites;
 	private ArrayList<Course> corequisites;
 	
-	Course(String courseCode, String courseName, String description, int ch){
+	public Course(String courseCode, String courseName, String description, int ch){
 		this.courseCode = courseCode;
 		this.courseName = courseName;
 		this.description = description;
