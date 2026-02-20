@@ -4,4 +4,11 @@
   <artifactId>course-planner</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>course-planner</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.jgrapht</groupId>
+  		<artifactId>jgrapht-core</artifactId>
+  		<version>1.5.2</version>
+  	</dependency>
+  </dependencies>
 </project>
